@@ -1,0 +1,70 @@
+body {
+    font-family: 'Comic Sans', cursive;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Estilos estrellas */
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+  cursor: none;
+}
+
+.calificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+  cursor: pointer;
+  transition: ease 0.4s;
+}
+
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+/* Estilos botón */
+#pedirComic{
+  background-color: #757575;
+  border-style: none;
+  color: white;
+  font-family: 'Comic Sans', cursive;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: ease 0.4s;
+  
+}
+
+#pedirComic:hover{
+  background-color: white;
+  color: #757575;
+  border: solid #757575;
+  border-radius: 5px;
+  transition: ease 0.4s;
+}
